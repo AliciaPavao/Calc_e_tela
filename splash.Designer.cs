@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(splash));
-            progressBar1 = new ProgressBar();
+            barra = new ProgressBar();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -38,6 +39,8 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox8 = new PictureBox();
+            label1 = new Label();
+            carregando = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -48,15 +51,15 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
-            // progressBar1
+            // barra
             // 
-            progressBar1.BackColor = SystemColors.ButtonHighlight;
-            progressBar1.ForeColor = Color.SkyBlue;
-            progressBar1.Location = new Point(12, 196);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(776, 25);
-            progressBar1.TabIndex = 0;
-            progressBar1.Value = 100;
+            barra.BackColor = SystemColors.ButtonHighlight;
+            barra.ForeColor = Color.SkyBlue;
+            barra.Location = new Point(12, 196);
+            barra.Name = "barra";
+            barra.Size = new Size(776, 25);
+            barra.TabIndex = 0;
+            barra.Click += carregamento_Click;
             // 
             // pictureBox1
             // 
@@ -146,12 +149,29 @@
             pictureBox8.TabIndex = 10;
             pictureBox8.TabStop = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 32F, FontStyle.Bold);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(253, 122);
+            label1.Name = "label1";
+            label1.Size = new Size(297, 59);
+            label1.TabIndex = 11;
+            label1.Text = "Carregando...";
+            // 
+            // carregando
+            // 
+            carregando.Enabled = true;
+            carregando.Tick += timer1_Tick;
+            // 
             // splash
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -160,12 +180,13 @@
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Controls.Add(progressBar1);
+            Controls.Add(barra);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "splash";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "splash";
+            Load += splash_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -175,11 +196,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private ProgressBar progressBar1;
+        private ProgressBar barra;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
@@ -188,5 +210,7 @@
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox8;
+        private Label label1;
+        private System.Windows.Forms.Timer carregando;
     }
 }

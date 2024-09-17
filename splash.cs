@@ -16,5 +16,29 @@ namespace Calc_e_tela
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            barra.Value = barra.Value + 1;
+
+
+            if (barra.Value == 100)
+            {
+                carregando.Enabled = false;
+
+                calculadora formCalculadora = new calculadora();
+                formCalculadora.ShowDialog();
+            }
+        }
+
+        private void carregamento_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

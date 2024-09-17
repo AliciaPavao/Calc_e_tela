@@ -56,6 +56,7 @@
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(776, 25);
             progressBar1.TabIndex = 0;
+            progressBar1.Value = 100;
             // 
             // pictureBox1
             // 
@@ -160,8 +161,10 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(progressBar1);
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "splash";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "splash";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

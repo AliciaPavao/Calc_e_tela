@@ -140,6 +140,8 @@ namespace Calc_e_tela
 
         private void btn_medidas_Click(object sender, EventArgs e)
         {
+            this.Hide();
+
             calc_celcius formcalc_celcius = new calc_celcius();
             formcalc_celcius.ShowDialog();
         }

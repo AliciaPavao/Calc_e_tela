@@ -47,6 +47,7 @@
             btn_igual = new Button();
             pictureBox1 = new PictureBox();
             txt_visor = new TextBox();
+            btn_medidas = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -279,11 +280,24 @@
             txt_visor.TabIndex = 17;
             txt_visor.TextChanged += txt_visor_TextChanged;
             // 
+            // btn_medidas
+            // 
+            btn_medidas.BackColor = Color.SteelBlue;
+            btn_medidas.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
+            btn_medidas.Location = new Point(32, 594);
+            btn_medidas.Name = "btn_medidas";
+            btn_medidas.Size = new Size(328, 71);
+            btn_medidas.TabIndex = 18;
+            btn_medidas.Text = "MEDIDAS";
+            btn_medidas.UseVisualStyleBackColor = false;
+            btn_medidas.Click += btn_medidas_Click;
+            // 
             // calculadora
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(405, 698);
+            Controls.Add(btn_medidas);
             Controls.Add(txt_visor);
             Controls.Add(pictureBox1);
             Controls.Add(btn_igual);
@@ -332,5 +346,6 @@
         private Button btn_igual;
         private PictureBox pictureBox1;
         private TextBox txt_visor;
+        private Button btn_medidas;
     }
 }

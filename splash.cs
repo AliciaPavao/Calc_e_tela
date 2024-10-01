@@ -31,9 +31,6 @@ namespace Calc_e_tela
                 calculadora formCalculadora = new calculadora();
                 formCalculadora.ShowDialog();
 
-                calc_celcius formcalc_celcius = new calc_celcius();
-                formcalc_celcius.ShowDialog();
-
                 
             }
 

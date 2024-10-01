@@ -55,9 +55,10 @@
             // 
             barra.BackColor = SystemColors.ButtonHighlight;
             barra.ForeColor = Color.SkyBlue;
-            barra.Location = new Point(12, 196);
+            barra.Location = new Point(14, 261);
+            barra.Margin = new Padding(3, 4, 3, 4);
             barra.Name = "barra";
-            barra.Size = new Size(776, 25);
+            barra.Size = new Size(887, 33);
             barra.TabIndex = 0;
             barra.Click += carregamento_Click;
             // 
@@ -65,9 +66,10 @@
             // 
             pictureBox1.BackgroundImageLayout = ImageLayout.None;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(358, 390);
+            pictureBox1.Location = new Point(409, 520);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(117, 61);
+            pictureBox1.Size = new Size(134, 81);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -76,9 +78,10 @@
             // 
             pictureBox2.BackgroundImageLayout = ImageLayout.None;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(714, 409);
+            pictureBox2.Location = new Point(816, 545);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(92, 48);
+            pictureBox2.Size = new Size(105, 64);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
@@ -87,9 +90,10 @@
             // 
             pictureBox3.BackgroundImageLayout = ImageLayout.None;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(515, 290);
+            pictureBox3.Location = new Point(589, 387);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(216, 180);
+            pictureBox3.Size = new Size(247, 240);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
@@ -98,9 +102,10 @@
             // 
             pictureBox4.BackgroundImageLayout = ImageLayout.None;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(444, 415);
+            pictureBox4.Location = new Point(507, 553);
+            pictureBox4.Margin = new Padding(3, 4, 3, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(95, 44);
+            pictureBox4.Size = new Size(109, 59);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
@@ -109,9 +114,10 @@
             // 
             pictureBox7.BackgroundImageLayout = ImageLayout.None;
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(164, 314);
+            pictureBox7.Location = new Point(187, 419);
+            pictureBox7.Margin = new Padding(3, 4, 3, 4);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(94, 184);
+            pictureBox7.Size = new Size(107, 245);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 7;
             pictureBox7.TabStop = false;
@@ -120,9 +126,10 @@
             // 
             pictureBox5.BackgroundImageLayout = ImageLayout.None;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(-2, 328);
+            pictureBox5.Location = new Point(-2, 437);
+            pictureBox5.Margin = new Padding(3, 4, 3, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(90, 161);
+            pictureBox5.Size = new Size(103, 215);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 8;
             pictureBox5.TabStop = false;
@@ -131,9 +138,10 @@
             // 
             pictureBox6.BackgroundImageLayout = ImageLayout.None;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(85, 334);
+            pictureBox6.Location = new Point(97, 445);
+            pictureBox6.Margin = new Padding(3, 4, 3, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(78, 161);
+            pictureBox6.Size = new Size(89, 215);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 9;
             pictureBox6.TabStop = false;
@@ -142,9 +150,10 @@
             // 
             pictureBox8.BackgroundImageLayout = ImageLayout.None;
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(251, 340);
+            pictureBox8.Location = new Point(287, 453);
+            pictureBox8.Margin = new Padding(3, 4, 3, 4);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(65, 161);
+            pictureBox8.Size = new Size(74, 215);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 10;
             pictureBox8.TabStop = false;
@@ -154,23 +163,24 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 32F, FontStyle.Bold);
             label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(253, 122);
+            label1.Location = new Point(289, 163);
             label1.Name = "label1";
-            label1.Size = new Size(297, 59);
+            label1.Size = new Size(370, 72);
             label1.TabIndex = 11;
             label1.Text = "Carregando...";
             // 
             // carregando
             // 
             carregando.Enabled = true;
+            carregando.Interval = 30;
             carregando.Tick += timer1_Tick;
             // 
             // splash
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(label1);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox6);
@@ -183,6 +193,7 @@
             Controls.Add(barra);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "splash";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "splash";

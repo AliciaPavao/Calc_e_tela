@@ -24,11 +24,19 @@ namespace Calc_e_tela
 
             if (barra.Value == 100)
             {
+
                 carregando.Enabled = false;
+                this.Hide();
 
                 calculadora formCalculadora = new calculadora();
                 formCalculadora.ShowDialog();
+
+                calc_celcius formcalc_celcius = new calc_celcius();
+                formcalc_celcius.ShowDialog();
+
+                
             }
+
         }
 
         private void carregamento_Click(object sender, EventArgs e)

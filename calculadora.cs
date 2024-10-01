@@ -128,6 +128,15 @@ namespace Calc_e_tela
 
         }
 
+        private void txt_visor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void calculadora_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 
 }

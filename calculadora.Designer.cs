@@ -54,9 +54,10 @@
             // 
             btn_1.BackColor = SystemColors.ActiveCaption;
             btn_1.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_1.Location = new Point(28, 305);
+            btn_1.Location = new Point(32, 407);
+            btn_1.Margin = new Padding(3, 4, 3, 4);
             btn_1.Name = "btn_1";
-            btn_1.Size = new Size(55, 58);
+            btn_1.Size = new Size(63, 77);
             btn_1.TabIndex = 0;
             btn_1.Text = "1";
             btn_1.UseVisualStyleBackColor = false;
@@ -66,9 +67,10 @@
             // 
             btn_2.BackColor = SystemColors.ActiveCaption;
             btn_2.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_2.Location = new Point(106, 305);
+            btn_2.Location = new Point(121, 407);
+            btn_2.Margin = new Padding(3, 4, 3, 4);
             btn_2.Name = "btn_2";
-            btn_2.Size = new Size(55, 58);
+            btn_2.Size = new Size(63, 77);
             btn_2.TabIndex = 1;
             btn_2.Text = "2";
             btn_2.UseVisualStyleBackColor = false;
@@ -78,9 +80,10 @@
             // 
             btn_3.BackColor = SystemColors.ActiveCaption;
             btn_3.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_3.Location = new Point(185, 305);
+            btn_3.Location = new Point(211, 407);
+            btn_3.Margin = new Padding(3, 4, 3, 4);
             btn_3.Name = "btn_3";
-            btn_3.Size = new Size(55, 58);
+            btn_3.Size = new Size(63, 77);
             btn_3.TabIndex = 2;
             btn_3.Text = "3";
             btn_3.UseVisualStyleBackColor = false;
@@ -90,9 +93,10 @@
             // 
             btn_4.BackColor = SystemColors.ActiveCaption;
             btn_4.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_4.Location = new Point(28, 236);
+            btn_4.Location = new Point(32, 315);
+            btn_4.Margin = new Padding(3, 4, 3, 4);
             btn_4.Name = "btn_4";
-            btn_4.Size = new Size(55, 58);
+            btn_4.Size = new Size(63, 77);
             btn_4.TabIndex = 3;
             btn_4.Text = "4";
             btn_4.UseVisualStyleBackColor = false;
@@ -102,9 +106,10 @@
             // 
             btn_5.BackColor = SystemColors.ActiveCaption;
             btn_5.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_5.Location = new Point(106, 236);
+            btn_5.Location = new Point(121, 315);
+            btn_5.Margin = new Padding(3, 4, 3, 4);
             btn_5.Name = "btn_5";
-            btn_5.Size = new Size(55, 58);
+            btn_5.Size = new Size(63, 77);
             btn_5.TabIndex = 4;
             btn_5.Text = "5";
             btn_5.UseVisualStyleBackColor = false;
@@ -114,9 +119,10 @@
             // 
             btn_6.BackColor = SystemColors.ActiveCaption;
             btn_6.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_6.Location = new Point(185, 236);
+            btn_6.Location = new Point(211, 315);
+            btn_6.Margin = new Padding(3, 4, 3, 4);
             btn_6.Name = "btn_6";
-            btn_6.Size = new Size(55, 58);
+            btn_6.Size = new Size(63, 77);
             btn_6.TabIndex = 5;
             btn_6.Text = "6";
             btn_6.UseVisualStyleBackColor = false;
@@ -126,9 +132,10 @@
             // 
             btn_7.BackColor = SystemColors.ActiveCaption;
             btn_7.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_7.Location = new Point(28, 167);
+            btn_7.Location = new Point(32, 223);
+            btn_7.Margin = new Padding(3, 4, 3, 4);
             btn_7.Name = "btn_7";
-            btn_7.Size = new Size(55, 58);
+            btn_7.Size = new Size(63, 77);
             btn_7.TabIndex = 6;
             btn_7.Text = "7";
             btn_7.UseVisualStyleBackColor = false;
@@ -138,9 +145,10 @@
             // 
             btn_8.BackColor = SystemColors.ActiveCaption;
             btn_8.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_8.Location = new Point(106, 167);
+            btn_8.Location = new Point(121, 223);
+            btn_8.Margin = new Padding(3, 4, 3, 4);
             btn_8.Name = "btn_8";
-            btn_8.Size = new Size(55, 58);
+            btn_8.Size = new Size(63, 77);
             btn_8.TabIndex = 7;
             btn_8.Text = "8";
             btn_8.UseVisualStyleBackColor = false;
@@ -150,9 +158,10 @@
             // 
             btn_9.BackColor = SystemColors.ActiveCaption;
             btn_9.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_9.Location = new Point(185, 167);
+            btn_9.Location = new Point(211, 223);
+            btn_9.Margin = new Padding(3, 4, 3, 4);
             btn_9.Name = "btn_9";
-            btn_9.Size = new Size(55, 58);
+            btn_9.Size = new Size(63, 77);
             btn_9.TabIndex = 8;
             btn_9.Text = "9";
             btn_9.UseVisualStyleBackColor = false;
@@ -162,9 +171,10 @@
             // 
             btn_0.BackColor = SystemColors.ActiveCaption;
             btn_0.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_0.Location = new Point(28, 374);
+            btn_0.Location = new Point(32, 499);
+            btn_0.Margin = new Padding(3, 4, 3, 4);
             btn_0.Name = "btn_0";
-            btn_0.Size = new Size(212, 58);
+            btn_0.Size = new Size(242, 77);
             btn_0.TabIndex = 9;
             btn_0.Text = "0";
             btn_0.UseVisualStyleBackColor = false;
@@ -174,9 +184,10 @@
             // 
             btn_apaga.BackColor = Color.SteelBlue;
             btn_apaga.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            btn_apaga.Location = new Point(260, 167);
+            btn_apaga.Location = new Point(297, 223);
+            btn_apaga.Margin = new Padding(3, 4, 3, 4);
             btn_apaga.Name = "btn_apaga";
-            btn_apaga.Size = new Size(55, 58);
+            btn_apaga.Size = new Size(63, 77);
             btn_apaga.TabIndex = 10;
             btn_apaga.Text = "CLS";
             btn_apaga.UseVisualStyleBackColor = false;
@@ -186,9 +197,10 @@
             // 
             btn_vezes.BackColor = Color.SteelBlue;
             btn_vezes.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            btn_vezes.Location = new Point(185, 101);
+            btn_vezes.Location = new Point(211, 135);
+            btn_vezes.Margin = new Padding(3, 4, 3, 4);
             btn_vezes.Name = "btn_vezes";
-            btn_vezes.Size = new Size(55, 58);
+            btn_vezes.Size = new Size(63, 77);
             btn_vezes.TabIndex = 11;
             btn_vezes.Text = "*";
             btn_vezes.UseVisualStyleBackColor = false;
@@ -198,9 +210,10 @@
             // 
             btn_divisao.BackColor = Color.SteelBlue;
             btn_divisao.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-            btn_divisao.Location = new Point(260, 100);
+            btn_divisao.Location = new Point(297, 133);
+            btn_divisao.Margin = new Padding(3, 4, 3, 4);
             btn_divisao.Name = "btn_divisao";
-            btn_divisao.Size = new Size(55, 58);
+            btn_divisao.Size = new Size(63, 77);
             btn_divisao.TabIndex = 12;
             btn_divisao.Text = "/";
             btn_divisao.UseVisualStyleBackColor = false;
@@ -210,9 +223,10 @@
             // 
             btn_menos.BackColor = Color.SteelBlue;
             btn_menos.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            btn_menos.Location = new Point(106, 100);
+            btn_menos.Location = new Point(121, 133);
+            btn_menos.Margin = new Padding(3, 4, 3, 4);
             btn_menos.Name = "btn_menos";
-            btn_menos.Size = new Size(55, 58);
+            btn_menos.Size = new Size(63, 77);
             btn_menos.TabIndex = 13;
             btn_menos.Text = "-";
             btn_menos.UseVisualStyleBackColor = false;
@@ -222,9 +236,10 @@
             // 
             btn_mais.BackColor = Color.SteelBlue;
             btn_mais.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            btn_mais.Location = new Point(28, 100);
+            btn_mais.Location = new Point(32, 133);
+            btn_mais.Margin = new Padding(3, 4, 3, 4);
             btn_mais.Name = "btn_mais";
-            btn_mais.Size = new Size(55, 58);
+            btn_mais.Size = new Size(63, 77);
             btn_mais.TabIndex = 14;
             btn_mais.Text = "+";
             btn_mais.UseVisualStyleBackColor = false;
@@ -234,9 +249,10 @@
             // 
             btn_igual.BackColor = Color.SteelBlue;
             btn_igual.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            btn_igual.Location = new Point(260, 236);
+            btn_igual.Location = new Point(297, 315);
+            btn_igual.Margin = new Padding(3, 4, 3, 4);
             btn_igual.Name = "btn_igual";
-            btn_igual.Size = new Size(55, 127);
+            btn_igual.Size = new Size(63, 169);
             btn_igual.TabIndex = 15;
             btn_igual.Text = "=";
             btn_igual.UseVisualStyleBackColor = false;
@@ -245,9 +261,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(260, 374);
+            pictureBox1.Location = new Point(297, 499);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(55, 58);
+            pictureBox1.Size = new Size(63, 77);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 16;
             pictureBox1.TabStop = false;
@@ -255,16 +272,18 @@
             // txt_visor
             // 
             txt_visor.Font = new Font("Segoe UI", 20F);
-            txt_visor.Location = new Point(28, 42);
+            txt_visor.Location = new Point(32, 56);
+            txt_visor.Margin = new Padding(3, 4, 3, 4);
             txt_visor.Name = "txt_visor";
-            txt_visor.Size = new Size(287, 43);
+            txt_visor.Size = new Size(327, 52);
             txt_visor.TabIndex = 17;
+            txt_visor.TextChanged += txt_visor_TextChanged;
             // 
             // calculadora
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(365, 450);
+            ClientSize = new Size(405, 698);
             Controls.Add(txt_visor);
             Controls.Add(pictureBox1);
             Controls.Add(btn_igual);
@@ -283,8 +302,10 @@
             Controls.Add(btn_3);
             Controls.Add(btn_2);
             Controls.Add(btn_1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "calculadora";
             Text = "calculadora";
+            FormClosed += calculadora_FormClosed;
             Load += calculadora_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

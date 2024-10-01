@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            txt_num = new TextBox();
             btn_Calc = new Button();
-            textBox2 = new TextBox();
+            txt_calc = new TextBox();
             btn_limpar = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txt_num
             // 
-            textBox1.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
-            textBox1.Location = new Point(303, 133);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(440, 74);
-            textBox1.TabIndex = 0;
+            txt_num.Font = new Font("Segoe UI", 30F, FontStyle.Bold);
+            txt_num.Location = new Point(303, 133);
+            txt_num.Name = "txt_num";
+            txt_num.Size = new Size(440, 74);
+            txt_num.TabIndex = 0;
+            txt_num.TextChanged += txt_num_TextChanged;
             // 
             // btn_Calc
             // 
@@ -54,13 +55,14 @@
             btn_Calc.UseVisualStyleBackColor = false;
             btn_Calc.Click += button1_Click;
             // 
-            // textBox2
+            // txt_calc
             // 
-            textBox2.Font = new Font("Segoe UI", 30F);
-            textBox2.Location = new Point(183, 377);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(688, 74);
-            textBox2.TabIndex = 2;
+            txt_calc.Font = new Font("Segoe UI", 30F);
+            txt_calc.Location = new Point(183, 377);
+            txt_calc.Name = "txt_calc";
+            txt_calc.Size = new Size(688, 74);
+            txt_calc.TabIndex = 2;
+            txt_calc.TextChanged += txt_calc_TextChanged_1;
             // 
             // btn_limpar
             // 
@@ -72,6 +74,7 @@
             btn_limpar.TabIndex = 3;
             btn_limpar.Text = "Limpar";
             btn_limpar.UseVisualStyleBackColor = false;
+            btn_limpar.Click += btn_limpar_Click;
             // 
             // calc_celcius
             // 
@@ -80,9 +83,9 @@
             BackColor = SystemColors.Highlight;
             ClientSize = new Size(1059, 668);
             Controls.Add(btn_limpar);
-            Controls.Add(textBox2);
+            Controls.Add(txt_calc);
             Controls.Add(btn_Calc);
-            Controls.Add(textBox1);
+            Controls.Add(txt_num);
             Name = "calc_celcius";
             Text = "calc_celcius";
             ResumeLayout(false);
@@ -91,9 +94,9 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox txt_num;
         private Button btn_Calc;
-        private TextBox textBox2;
+        private TextBox txt_calc;
         private Button btn_limpar;
     }
 }
